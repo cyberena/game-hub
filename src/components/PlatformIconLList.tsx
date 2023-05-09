@@ -10,9 +10,10 @@ import { Platform } from "../hooks/useGames";
 import { HStack, Icon, Text } from "@chakra-ui/react";
 import { SiNintendo } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
+import { IconType } from "react-icons";
 
 interface Props {
-  platform: Platform[];
+  platforms: Platform[];
 }
 
 const PlatformIconLList = ({ platforms }: Props) => {
